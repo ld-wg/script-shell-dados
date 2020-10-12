@@ -1,8 +1,8 @@
 # script-shell-dados
-## O documento .tar.gz a ser descompactado deve se encontrar na pasta ~/Documentos para o funcionamento do script
+
 Shell script de processamento de dados, feito especificamente para o tipo de arquivo da entrada. Lê arquivos .csv com dados e faz uma série de leituras, tabelas e gráficos (Gnuplot).
 
-O objetivo deste trabalho é fazer um script chamado evasao.sh que:
+O objetivo deste trabalho é fazer um script chamado `evasao.sh` que:
 
 1. Leia todos os arquivos do diretório descompactado da extração do arquivo evasao2014-18.tar.gz
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ~/Documentos
+
 tar -xvf evasao2014-18.tar.gz
 cd evasao
 
@@ -110,8 +110,5 @@ EOF
 
 rm qnt_anos.txt
 rm evasao.txt
-for ((i=4;i<=8;i++)) ; do
-rm evasao-201$i.csv
 rm evasao_temp.txt
-done
-
+for ((i=4;i<=8;i++)) ; do rm evasao-201$i.csv; done
